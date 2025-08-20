@@ -1,11 +1,11 @@
 import './App.css'
+import Header from './components/Header'
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-3xl font-bold underline">Olá, mundo!</h1>
-      </div>
+      <Header />
+      <main className='max-w-[1200px] mx-auto px-4 py-12 text-left'></main>
     </>
   )
 }
